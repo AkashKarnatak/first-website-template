@@ -1,0 +1,265 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7rem;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+h1, h2, h3 {
+    padding-bottom: 20px;
+}
+
+p {
+    margin: 10px 0px;
+}
+
+/* Utility classes */
+
+.container {
+    max-width: 1100px;
+    padding: 0px 20px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.text-primary {
+    color: #fdd25c;
+}
+
+.text-lead {
+    font-size: 20px;
+}
+
+.bg-dark {
+    color: #fff;
+    background: #333;
+}
+
+.bg-light {
+    color: #333;
+    background: #f4f4f4;
+}
+
+.bg-primary {
+    color: #333;
+    background: #fdd25c;
+}
+
+.btn {
+    display: inline-block;
+    color: #fff;
+    background: #333;
+    border: none;
+    font-size: 18px;
+    padding: 13px 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: #333;
+    background: #fdd25c;
+}
+
+.btn-light {
+    color: #333;
+    background: #f4f4f4;
+}
+
+.clr {
+    clear: both;
+}
+
+.py-1 { padding: 10px 0px; }
+.py-2 { padding: 20px 0px; }
+.py-3 { padding: 30px 0px; }
+
+.l-heading {
+    font-size: 40px;
+    line-height: 1.2em;
+}
+
+/* ------------------------------------------------ */
+
+#navbar {
+    background: #333;
+    color: #fff;
+    overflow: auto;
+}
+
+#navbar .container a {
+    color: #fff;
+}
+
+#navbar .container .logo {
+    padding-top: 20px;
+    float: left;
+}
+ 
+#navbar .container ul {
+    float: right;
+    list-style: none;
+}
+
+#navbar .container ul li {
+    float: left;
+} 
+
+#navbar .container ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+#navbar .container ul li a:hover,
+#navbar .container ul li .current {
+    color: #fdd25c;
+    background: #222;
+}
+
+#showcase {
+    background: url('../img/hotel-bg.png') no-repeat center center/cover;
+    height: calc(100vh - 67.2px);
+}
+
+#showcase .container .showcase-content {
+    color: #fff;
+    text-align: center;
+    padding: calc(35vh - 67.2px) 0px;
+}
+
+#showcase .container .showcase-content h1 {
+    font-size: 60px;
+    line-height: 1.2em;
+}
+
+#showcase .container .showcase-content p {
+    padding-bottom: 20px;
+    line-height: 1.7em;
+}
+
+/* Home section */
+#home-info {
+    height: 400px;
+}
+
+#home-info .info-img {
+    float: left;
+    background: url('../img/history.jpg') no-repeat center center/cover;
+    width: 50%;
+    min-height: 100%;
+}
+
+#home-info .info-content {
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 50px 30px;
+    overflow: hidden;
+}
+
+#home-info .info-content p {
+    padding-bottom: 30px;
+}
+
+.box {
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
+}
+
+.box i {
+    margin-bottom: 10px;
+}
+
+/* About styles */
+
+#about-info .container .info-left{
+    float: left;
+    width: 50%;
+}
+
+#about-info .container .info-right{
+    float: right;
+    width: 50%;
+    min-height: 100%;
+}
+
+#about-info .container .info-right img{
+    display: block;
+    margin: auto;
+    width: 90%;
+    border-radius: 50%;
+}
+
+#testimonials {
+    background: url('../img/new.png') no-repeat center center/cover;
+    padding-top: 100px;
+}
+
+#testimonials h2 {
+    color: #fff;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+#testimonials .testimonial {
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    opacity: 0.9;
+}
+
+#testimonials .testimonial img {
+    width: 100px;
+    border-radius: 50%;
+    display: block;
+    float: left;
+    margin-right: 20px;
+}
+
+/* Contact styles */
+
+#contact-form .form-group {
+    margin-bottom: 20px;
+}
+
+#contact-form .form-group label{
+    display: block;    
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+#contact-form .form-group input,
+#contact-form .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #aaa ;
+}
+
+#contact-form .form-group textarea {
+    height: 200px;
+}
+
+#contact-form .form-group input:focus,
+#contact-form .form-group textarea:focus {
+    outline: none;
+    border: 2px solid #fdd25c;
+}
+
+#main-footer {
+    background: #444;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+}
